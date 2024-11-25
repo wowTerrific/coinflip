@@ -1,6 +1,9 @@
 # Coinflip
 
-Flip a coin without a coin via terminal.
+Flip a coin without a coin via command line. 
+
+Yes it's really that simple.
 
 TODO:
-- Color output with Heads being Blue and Tails being Orange
+- Test randomness of flips and verify it feels "random"
+  - possibly duplicate "heads" and "tails"
