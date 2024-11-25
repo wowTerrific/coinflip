@@ -7,5 +7,11 @@ import (
 )
 
 func main() {
-	fmt.Println(flip.Flip())
+	newFlip := flip.Flip()
+	if newFlip == "Heads" {
+		fmt.Println(flip.HEADS)
+	} else {
+		fmt.Println(flip.TAILS)
+	}
+
 }
