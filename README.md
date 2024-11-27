@@ -4,6 +4,4 @@ Flip a coin without a coin via command line.
 
 Yes it's really that simple.
 
-TODO:
-- Test randomness of flips and verify it feels "random"
-  - possibly duplicate "heads" and "tails"
+100,000 flips produce results that fall within standard deviation of your typical heads-tails probability (usually). Monkeys with typewriters will eventually write Shakespear and the Go `math/rand/v2` package can only be so random.

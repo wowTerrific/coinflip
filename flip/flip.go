@@ -1,7 +1,7 @@
 package flip
 
 import (
-	"math/rand"
+	"math/rand/v2"
 )
 
 const (
@@ -45,10 +45,16 @@ const (
 )
 
 func Flip() string {
-	answers := []string{
+	// 4 options are better than 2
+	// computers aren't actually random ¯\_(ツ)_/¯
+	options := []string{
+		"Heads",
+		"Tails",
 		"Heads",
 		"Tails",
 	}
 
-	return answers[rand.Intn(len(answers))]
+	r := rand.IntN(len(options))
+
+	return options[r]
 }
